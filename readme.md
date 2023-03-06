@@ -41,7 +41,12 @@ contesto: cucina & ricetta della nonna
         - ragù
         - pasta
         - besciamella
-    - ? SE la teglia è piena mettere in forno
+    - ? SE la teglia è piena
+    - accendere forno
+    - aumentare la temperatura
+    - selezionare cottura sopra e sotto
+    - attendere che il forno raggiunga la temperatura desiderata
+    - mettere la teglia in forno
     - : ALTRIMENTI continua a stratificare
 - ? SE la lasagna è buona come quella della nonna, mangia.
 - : ALTRIMENTI ricomincia da "Leggere ricetta"
